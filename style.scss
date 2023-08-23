@@ -1,0 +1,172 @@
+/* ---------------------------- HTML ---------------------------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 500 !important;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+h2 {
+    font-size: 32px !important;
+    font-weight: bold !important;
+}
+
+p {
+    color: #676767;
+}
+/* ---------------------------- ALL SECTIONS ---------------------------- */
+section.services,
+section.custom-design,
+section.product-shopping,
+section.portfolio,
+section.faq,
+section.contact-us {
+	height: fit-content;
+	padding: 60px 0;
+    max-width: 1240px;
+    margin: auto;
+}
+
+
+/* ---------------------------- NAV BAR ---------------------------- */
+div.container-fluid {
+    width: 100%;
+
+}
+
+/* ---------------------------- 01 HERO BANNER ---------------------------- */
+section.hero-banner {
+    background: #d3d3d3;
+    height: 650px;
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+
+& .container{
+    height: fit-content;
+	padding: 60px 0;
+    max-width: 1240px;
+    margin: auto;
+}
+}
+
+/* ---------------------------- 02 SERVICES ---------------------------- */
+section.services{
+    & img{
+        height: 120px;
+        width: fit-content;
+        margin-bottom: 24px;
+        // border: red solid 1px;
+    }
+
+    & h2 {
+        margin-bottom: 2rem;
+    }
+
+    & .card{
+        min-height: 240px;
+        border: none;
+        margin-right: 24px;
+
+        & .card-text{
+            min-height: 150px;
+            font-size: 16px;
+        }
+        
+        & .card-title{
+            font-weight: 600;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        & .card-body {
+            padding: 0;
+            margin: 0;
+        }
+    }
+
+
+
+}
+
+
+/* ---------------------------- 03 CUSTOM DESIGN ---------------------------- */
+.card-body {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 16px;
+    border: none;
+
+& .btn {
+    width: fit-content;
+    border:none;
+}
+}
+
+
+/* ---------------------------- 04 PRODUCT CAROUSEL (SHOP) ---------------------------- */
+
+
+/* ---------------------------- 05 PORTFOLIO ---------------------------- */
+/*what we have produced*/
+section.portfolio {
+    & img{
+        height: 25vw;
+        width: 25%;
+        object-fit: cover;
+    }
+}
+
+.portfolio__row-cont{
+    display: flex;
+    flex-wrap:wrap;
+    width: 100%;
+    background-color: black;
+}
+
+/* ---------------------------- 06 FAQ ---------------------------- */
+
+
+/* ---------------------------- 07 CONTACT US ---------------------------- */
+
+
+/* ---------------------------- FOOTER ---------------------------- */
+
+
+
+
+
+
+
+
+
+/* ------------------------- MOBILE DEVICES -------------------------- */
+
+
+
+/* -------------------- 01 TABLETS -------------------- */
+
+/* --------------------- 02 PHONES -------------------- */
+
+/* --------------------- 03 ALL -------------------- */
+
+
+
+@media screen and (max-width: 991px) {
+
+}
+@media screen and (max-width: 442px) {
+}
