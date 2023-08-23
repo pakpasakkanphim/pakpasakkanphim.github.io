@@ -62,6 +62,8 @@ section.services img {
 }
 section.services .card {
   min-height: 240px;
+  margin: none;
+  border: none;
 }
 section.services .card-text {
   min-height: 150px;
