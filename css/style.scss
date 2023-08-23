@@ -64,7 +64,8 @@ section.services{
 
     & .card{
         min-height: 240px;
-        // border: red solid 1px;
+        border: none;
+	margin: none;
     }
 
     & .card-text{
