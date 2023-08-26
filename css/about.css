@@ -1,0 +1,17 @@
+/* ---------------------------- HTML ---------------------------- */
+/* ---------------------------- ALL SECTIONS ---------------------------- */
+section.about-title,
+section.about-pic,
+section.about-story,
+section.about-team,
+section.about-clients,
+section.about-product,
+section.about-reviews {
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 60px 0;
+  max-width: 1150px;
+  margin: auto;
+}
+
+/* ---------------------------- 01 TITLE ---------------------------- *//*# sourceMappingURL=about.css.map */
