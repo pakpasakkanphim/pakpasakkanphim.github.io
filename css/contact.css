@@ -1,0 +1,28 @@
+/* ---------------------------- CONTACT US ---------------------------- */
+section.contact-us {
+  margin: 80 0;
+  padding: 80px 0;
+}
+section.contact-us h1 {
+  font-size: 3em;
+}
+section.contact-us .col {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 600px;
+}
+section.contact-us #contact_right-col {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+section.contact-us #contact_right-col .row {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+section.contact-us #contact_right-col .card {
+  margin-bottom: 16px;
+  border: none;
+}/*# sourceMappingURL=contact.css.map */

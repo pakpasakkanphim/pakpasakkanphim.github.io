@@ -1,0 +1,29 @@
+/* ---------------------------- ALL SECTIONS ---------------------------- */
+section.product_reviews {
+    height: fit-content;
+    padding: 30px 0;
+    max-width: 1150px;
+    margin: auto;
+}
+
+/* ---------------------------- our product ---------------------------- */
+section.product_our-product {
+
+    & .card-group {
+        border: none;
+
+        & img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+    }
+}
+
+section.product_reviews {
+
+    & h1 {
+        text-align: center;
+        margin: 20px 0;
+    }
+}

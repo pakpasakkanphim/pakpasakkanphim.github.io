@@ -1,0 +1,160 @@
+/* ---------------------------- HTML ---------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 500 !important;
+}
+
+p {
+  font-family: "Open Sans", sans-serif !important;
+  color: #676767;
+}
+
+h2 {
+  font-size: 32px !important;
+  font-weight: 500 !important;
+  padding-bottom: 10px;
+  padding-top: 40px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 400 !important;
+}
+
+/* ---------------------------- CONTAINER ---------------------------- */
+.container {
+  width: 100%;
+  padding: 0 12px;
+  margin: 0 auto;
+  max-width: 1150px;
+}
+
+/* ---------------------------- ALL SECTIONS ---------------------------- */
+section.services,
+section.custom-design,
+section.product-shopping,
+section.portfolio,
+section.faq,
+section.contact-us {
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 60px 0;
+  max-width: 1150px;
+  margin: auto;
+}
+
+/* ---------------------------- NAV BAR ---------------------------- */
+div.container-xxl {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+/* ---------------------------- 01 HERO BANNER ---------------------------- */
+section.hero-banner {
+  background-image: url("https://th.bing.com/th/id/R.1a878e4037f37843a21a1ab753db791f?rik=HIbtqMcHmA7RoA&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f06%2fDownload-Light-Blue-HD-Backgrounds.jpg&ehk=Li5o67T2Y8%2fgxhkAqlqmEincy7TP9ew%2fczWc5oJZyVE%3d&risl=&pid=ImgRaw&r=0");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 540px;
+  width: 100% !important;
+  display: flex;
+  flex-direction: column;
+}
+section.hero-banner .container {
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 30px 40px;
+  max-width: 1150px;
+  margin: auto;
+}
+
+/* ---------------------------- 02 SERVICES ---------------------------- */
+section.services img {
+  height: 120px;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-bottom: 24px;
+}
+section.services h2 {
+  margin-bottom: 2rem;
+}
+section.services .card {
+  min-height: 240px;
+  border: none;
+  margin-right: 30px;
+  margin-left: 30px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+section.services .card .btn {
+  margin: auto;
+  margin-bottom: 30px;
+}
+section.services .card .card-text {
+  min-height: 150px;
+  font-size: 16px;
+}
+section.services .card .card-title {
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+section.services .card .card-body {
+  padding: 0;
+  margin: 0;
+}
+
+/* ---------------------------- 03 CUSTOM DESIGN ---------------------------- */
+.card-body {
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 16px;
+  border: none;
+}
+.card-body h2 {
+  text-align: left !important;
+}
+.card-body .btn {
+  width: -moz-fit-content;
+  width: fit-content;
+  border: none;
+}
+
+/* ---------------------------- 04 PRODUCT CAROUSEL (SHOP) ---------------------------- */
+/* ---------------------------- 05 PORTFOLIO ---------------------------- */
+/*what we have produced*/
+section.portfolio img {
+  height: 25vw;
+  width: 25%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.portfolio__row-cont {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: black;
+}
+
+/* ---------------------------- 06 FAQ ---------------------------- */
+/* ---------------------------- 07 CONTACT US ---------------------------- */
+/* ------------------------- MOBILE DEVICES -------------------------- */
+/* -------------------- 01 TABLETS -------------------- */
+/* --------------------- 02 PHONES -------------------- */
+/* --------------------- 03 ALL -------------------- *//*# sourceMappingURL=style.css.map */
